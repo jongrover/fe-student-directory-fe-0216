@@ -52,7 +52,7 @@ This challenge asks that you use CSS to create column structure and positioning 
 5. Push the changes up as a new branch on your origin remote.
 6. Make a pull request comparing your-name-layout branch from your origin to the master branch on the forked upstream repository.
 
-# Part 4 - Create a Responsive Student Bio Page
+## Part 4 - Create a Responsive Student Bio Page
 
 This challenge asks that you use CSS media queries to add responsive behavior to your personal bio page.
 
