@@ -28,10 +28,10 @@ This challenge asks you use HTML5 semantic elements and an external style sheet 
 
 ### Tasks
 
-1. Visit the student directory repo you last made a pull request to in part 1 and copy the clone url either HTTPS or SSH link.
-2. Inside your local repo for this fork, in terminal type ♥ `git remote add upstream (paste the link you copied in step 1)`
+1. In a browser, visit the flatiron-school-ironboard/fe-student-directoty.. repo you initially forked from and copy the clone url either HTTPS or SSH link.
+2. In terminal cd into your local folder for the student directory and type ♥ `git remote add upstream (paste the link you copied in step 1)`
 3. Check to see if you added my repo  ♥ `git remote -v` it should be listed as upstream.
-4. Checkout your master branch.
+4. Checkout your master branch ♥ `git checkout master`
 5. Pull down the newest changes ♥ `git pull upstream master` and resolve any conflicts if neccesary.
 6. Create a new feature branch named `your-name-style`
 7. Create a file in the /css folder named `your-name.css` and link to it on your bio page in the students/ folder.
