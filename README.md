@@ -25,7 +25,7 @@ This challenge asks you use HTML5 semantic elements and an external style sheet 
 
 ### Tasks
 
-1. In a browser, visit the flatiron-school-ironboard/fe-student-directoty.. repo you initially forked from and copy the clone url either HTTPS or SSH link.
+1. In a browser, visit the learn-co-students/fe-student-directoty.. repo you initially forked from and copy the clone url either HTTPS or SSH link.
 2. In terminal cd into your local folder for the student directory and type ♥ `git remote add upstream (paste the link you copied in step 1)`
 3. Check to see if you added my repo  ♥ `git remote -v` it should be listed as upstream.
 4. Checkout your master branch ♥ `git checkout master`
