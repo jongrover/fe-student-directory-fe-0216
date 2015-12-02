@@ -77,3 +77,5 @@ This challenge asks that you to experiment with jQuery by making use of its sele
 7. Push the changes up as a new branch on your origin remote.
 8. Make a pull request comparing your-name-jquery branch from your origin to the master branch on the forked upstream repository.
 
+
+<a href='https://learn.co/lessons/fe-student-directory' data-visibility='hidden'>View this lesson on Learn.co</a>
