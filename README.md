@@ -78,4 +78,4 @@ This challenge asks that you to experiment with jQuery by making use of its sele
 8. Make a pull request comparing your-name-jquery branch from your origin to the master branch on the forked upstream repository.
 
 
-<a href='https://learn.co/lessons/fe-student-directory' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/fe-student-directory' title='Part 1 - Student Directory'>Part 1 - Student Directory</a> on Learn.co and start learning to code for free.</p>
