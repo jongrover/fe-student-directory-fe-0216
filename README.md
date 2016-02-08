@@ -1,8 +1,8 @@
 
 
-## Part 1 - Student Directory
+## Part 1 (Week 1) - Student Directory
 
-This challenge asks you to work in teams to collaborate on a group site where each member will submit a personal bio page for themselves.
+This challenge asks you to work in teams to collaborate on a group site where each member will submit a personal bio page for themselves. Each week only do one part. So for week one do Part 1 and during week 2 you will do part 2 and so on.
 
 ### Tasks
 
@@ -19,7 +19,7 @@ This challenge asks you to work in teams to collaborate on a group site where ea
 
 After I merge everyones pull requests we will have a single student directory where everyone built there own page and we used Github to combine it all together. Then I will post it online and provide you a link. Feel free to customize your page any way you want.
 
-## Part 2 - Styling The Student Directory
+## Part 2 (Week 2) - Styling The Student Directory
 
 This challenge asks you use HTML5 semantic elements and an external style sheet to style your personal bio page.
 
@@ -36,7 +36,7 @@ This challenge asks you use HTML5 semantic elements and an external style sheet 
 9. Push the changes up as a new branch on your origin remote.
 10. Make a pull request comparing your-name-style branch from your origin to the master branch on the forked upstream repository.
 
-## Part 3 -  Adding Page Layout To The Student Directory
+## Part 3 (Week 3) -  Adding Page Layout To The Student Directory
 
 This challenge asks that you use CSS to create column structure and positioning within your personal bio page.
 
@@ -49,7 +49,7 @@ This challenge asks that you use CSS to create column structure and positioning 
 5. Push the changes up as a new branch on your origin remote.
 6. Make a pull request comparing your-name-layout branch from your origin to the master branch on the forked upstream repository.
 
-## Part 4 - Create a Responsive Student Bio Page
+## Part 4 (Week 4) - Create a Responsive Student Bio Page
 
 This challenge asks that you use CSS media queries to add responsive behavior to your personal bio page.
 
@@ -62,7 +62,7 @@ This challenge asks that you use CSS media queries to add responsive behavior to
 5. Push the changes up as a new branch on your origin remote.
 Make a pull request comparing your-name-responsive branch from your origin to the master branch on the forked upstream repository.
 
-## Part 5 - Add jQuery to Student Bio Page
+## Part 5 (Week 5) - Add jQuery to Student Bio Page
 
 This challenge asks that you to experiment with jQuery by making use of its selectors and methods to add rich interactive behavior to your student bio page.
 
