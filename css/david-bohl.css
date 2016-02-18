@@ -3,6 +3,7 @@ body {
 	margin: 0px;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 16px;
+
 }
 
 
@@ -11,7 +12,7 @@ body {
 	  /*float: left; */
 	  /*background-color: aqua;*/
 	  /*background-color: #5c75be; */
-		background-color: rgb(173,	115,	77	);
+		background-color: rgb(12,	131	,178		);
 	  height: 100px;
 	  margin: 10px;
 	  padding: 5px;
@@ -22,13 +23,7 @@ body {
 	  
 }
 
-.main{
-	background-color: green;
-	margin: 10px;
-	padding: 5px;
-	border-radius: 5px;
-	
-}
+
 
 #picture {
 	 /*float: left;  */
@@ -72,4 +67,7 @@ body {
 	float: bottom;
 	margin: 10px;
 	
+}
+#icons a{
+	text-decoration: none;
 }
