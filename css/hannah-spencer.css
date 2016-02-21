@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+
+body {
+  background-color: #e0ebeb;
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 75px;
+}
+
+.wrapper {
+color:#5c8a8a;
+font: normal 3em/1.5em "Fjalla One", sans-serif;
+letter-spacing: 15px;
+text-align: center;
+text-shadow: 3px 10px 15px #b1cdcd;
+border-style: dotted;
+
+}
+.img-circle {
+    border-radius: 50%;
+    border-color: white;
+    float:left;
+    margin:20px;
+    
+}
+
+#content {
+font: normal 2em/1.75em "Fjalla One", sans-serif;
+letter-spacing:2px;
+
+}
+
+a:link {
+  color:black;
+  float:left;
+  font: normal 1em/1.5em 'Slabo 27px', serif;
+}
+a:visited {
+  color:purple;
+}
