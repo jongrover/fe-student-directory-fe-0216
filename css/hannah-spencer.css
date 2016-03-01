@@ -9,34 +9,90 @@ body {
   margin-bottom: 75px;
 }
 
-.wrapper {
+.wrapper{
 color:#5c8a8a;
 font: normal 3em/1.5em "Fjalla One", sans-serif;
 letter-spacing: 15px;
 text-align: center;
 text-shadow: 3px 10px 15px #b1cdcd;
-border-style: dotted;
+border-style: solid;
+background-color: #fff;
+opacity:0.4;
 
 }
+
+figcaption {
+  font: normal 1em/1.5em 'Slabo 27px', serif;
+  color: #5c8a8a;
+  text-align: center;
+}
+
+.row{
+    width:100%;
+    margin:0 auto;
+    clear: both;
+    margin-bottom: 2%;
+  }
+.row:after{
+    content:".";
+    display:block;
+    clear:both;
+    visibility: hidden;
+    height:0;
+    line-height: 0;
+  }
+
+[class*="col-"] {
+  float: left;
+  margin-left: 2%;
+  padding: 10px;
+}
+  [class*="col-"]:first-child {
+  margin-left: 0;
+}
+.col-4  { width: 30%; }
+
+.clearfix:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility: hidden;
+  height:0;
+  line-height: 0;
+  }
+
+img, video, audio{
+  max-width: 100%;
+}
+
 .img-circle {
     border-radius: 50%;
     border-color: white;
     float:left;
     margin:20px;
-    
+}
+
+
+img:hover {
+  opacity:0.4;
 }
 
 #content {
 font: normal 2em/1.75em "Fjalla One", sans-serif;
+color:#334d4d;
 letter-spacing:2px;
 
 }
 
+section {
+  padding:10px;
+  margin-bottom: 20px;
+}
 a:link {
   color:black;
   float:left;
   font: normal 1em/1.5em 'Slabo 27px', serif;
 }
 a:visited {
-  color:purple;
+  color:#808000;
 }
