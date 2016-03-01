@@ -9,12 +9,14 @@ p {
   color:white;
   text-shadow: 10px 4px 16px #EFC31B;
   background: rgba(0,0,0,0.4);
+  padding-top:10px;
 }
 
 h1 {
   color:white;
   font-family: 'Black Ops One', cursive;
     background: rgba(0,0,0,0.4);
+    margin-left: 36%
 }
 
 figcaption {
@@ -23,10 +25,12 @@ figcaption {
   text-align: left;
   font-weight: 800;
   background: rgba(0,0,0,0.4);
+  padding-top:10px;
 }
 
 img {
   width: 30%;
+  margin-left:33%;
 }
 
 .animated {
@@ -88,6 +92,60 @@ body {
 #details a:active{
   color:red;
 }
+
+
+/*//////POSITIONING ////// LAYOUT //////*/
+
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+figcaption {
+  margin-left:20%;
+}
+
+
+iframe {
+  width: 33%;
+}
+
+.footer {
+  float:right;
+  text-align:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
