@@ -1,1 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+body {
+  background: rgb(70,190,225);
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 75px;
+}
+
+.wrapper{
+font: normal 3em/1.5em "Indie Flower", sans-serif;
+color: #1a25bf; 
+letter-spacing: .25em;
+text-align: center;
+background-color: #fff;
+border: solid #d00963;
+opacity:0.7;
+margin-bottom: 10px;
+padding: 20px 0;
+}
+
+.wrapper h1 {
+  margin: 0;
+}
+
+.wrapper h2 {
+  font-size: 1em; 
+  margin: 0;
+}
+
+#Me, #content {
+  float: left;
+  width: 50%;
+}
+
+#Me img {
+  width: 100%;
+  border: 20px solid #d00963;
+  opacity: 20%;
+  box-sizing: border-box;
+}
+
+#content {
+  padding: 10px;
+  box-sizing: border-box;
+  font: normal 1.5em/0.75em 'Lato', serif;
+  color:#060718;
+  line-height: 1.5em;
+}
+
+#interests {
+  font: normal 1.5em/0.75em 'Lato', serif;
+  color:#060718;
+  line-height: 1.5em;
+}
+
+section {
+  padding:10px;
+  margin-bottom: 20px;
+}
+
+figcaption {
+  font: bold 1em/1.5em 'Indie Flower', sans-serif;
+  color: #1a25bf;
+  text-align: center;
+
+}
+a:link {
+  color:black;
+  float:left;
+  font: normal 1em/1.5em 'lato', serif;
+}
+
+a:visited {
+  color:#808000;
+}
+
+.row{
+    width:100%;
+    margin:0 auto;
+    clear: both;
+    margin-bottom: 2%;
+  }
+
+.row:after{
+    content:".";
+    display:block;
+    clear:both;
+    visibility: hidden;
+    height:0;
+    line-height: 0;
+  }
+
+[class*="col-"] {
+  float: left;
+  margin-left: 2%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+  [class*="col-"]:first-child {
+  margin-left: 0;
+}
+
+.col-4  { 
+  width: 32%; 
+}
+
+.clearfix:after {
+  content:".";
+  display:block;
+  clear:both;
+  visibility: hidden;
+  height:0;
+  line-height: 0;
+  }
+
+img, video, audio{
+  max-width: 100%;
+
+
 
