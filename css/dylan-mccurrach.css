@@ -1,5 +1,7 @@
 .dylan {
-  width: 390px;
+  width: 400px;
+  display: block;
+  margin: 0 auto;
 }
 
 .text1,.text2 {
@@ -8,6 +10,8 @@
 
 .text1 {
   font-size: 26px;
+  text-align: center;
+  border: 1px;
 }
 
 .text2 {
@@ -16,5 +20,6 @@
 }
 
 .box1 {
-  width: 390px;
+  width: 400px;
+  margin: 0 auto;
 }
