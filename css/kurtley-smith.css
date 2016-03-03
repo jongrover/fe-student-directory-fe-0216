@@ -1,0 +1,151 @@
+@import url(https://fonts.googleapis.com/css?family=Jura:400,500);
+@import url(https://fonts.googleapis.com/css?family=Black+Ops+One);
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: 'Jura', sans-serif;
+  font-weight: 800;
+  color:white;
+  text-shadow: 10px 4px 16px #EFC31B;
+  background: rgba(0,0,0,0.4);
+  padding-top:10px;
+}
+
+h1 {
+  color:white;
+  font-family: 'Black Ops One', cursive;
+    background: rgba(0,0,0,0.4);
+    margin-left: 36%
+}
+
+figcaption {
+  font: normal 0.8em 'Jura', cursive;
+  color: white;
+  text-align: left;
+  font-weight: 800;
+  background: rgba(0,0,0,0.4);
+  padding-top:10px;
+}
+
+img {
+  width: 30%;
+  margin-left:33%;
+}
+
+.animated {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+body {
+  background: url(https://rosswolfe.files.wordpress.com/2013/07/view-011-brooklyn-bridge-from-car-platform-creator-s-w-lewis-collection-lantern-slide-collection-views-u-s-brooklyn-brooklyn-bridge-1896-1900.jpg);
+  background-size: cover;
+}
+
+#details a:link, #details a:visited {
+  color:white;
+  text-decoration:none;
+  background: rgba(0,0,0,0.4);
+}
+
+#details a:hover {
+  color:black;
+  text-decoration: underline;
+}
+
+#details a:active{
+  color:red;
+}
+
+
+/*//////POSITIONING ////// LAYOUT //////*/
+
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+figcaption {
+  margin-left:20%;
+}
+
+
+iframe {
+  width: 33%;
+}
+
+.footer {
+  float:right;
+  text-align:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+.dylan {
+  width: 390px;
+}
+
+.text1,.text2 {
+  font-family: Verdana;
+}
+
+.text1 {
+  font-size: 26px;
+}
+
+.text2 {
+  font-size: 12px;
+  text-align: justify;
+}
+
+.box1 {
+  width: 390px;
+}

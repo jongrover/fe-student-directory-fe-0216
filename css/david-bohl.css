@@ -1,0 +1,56 @@
+body {
+	background-color: gray;
+	margin: 0px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+}
+/*--------classes---------------*/
+.wrapper{
+	
+	width: 960px;
+	margin: 0 auto;
+	padding: 0px;
+	
+}
+.colorbar{
+	height: 150px;
+	margin: 20px 0px 20px 0px;
+}
+/*----------IDs------------------*/
+#header {
+	background-color: rgb(12,131,178);
+	height: 100px;
+	margin-bottom: 20px;
+	padding: 5px;
+	text-align: center;	  
+}
+#picture {
+	margin: 20px 0px 20px 20px;
+	/*margin-top: 15px;
+	margin-left: 20px;*/
+	float: left;
+	/*box-shadow: 10px 5px 5px gray;*/
+	
+}
+#picture img{
+	height: 450px;
+}
+#bio {
+	/*background-color: rgb(218,202,131);*/
+	background: rgb(171,210,191);
+	margin: 20px;
+	padding: 10px;
+	float: right;
+	width: 430px;
+	height: 430px;
+
+}
+#red{ background-color: rgb(248,66,62); }
+#orange{ background-color: rgb(240,114,1); }
+#yellow{ background-color: rgb(218,202,131);}
+#icons {
+	float: left;
+	float: bottom;
+	margin: 20px;
+}
+#icons a{ text-decoration: none; }
