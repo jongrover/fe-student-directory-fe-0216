@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #201545;
+  font-family: 'Poiret One', cursive;
+}
+
+h1 {
+  text-align: center;
+  text-transform: lowercase;
+  font-weight: bold;
+  font-family: 'Poiret One', cursive;
+  color: #461239;
+}
+
+figcaption {
+  font-size: .75em;
+  line-height: 1em;
+}
+
+div {background-color: #e34}

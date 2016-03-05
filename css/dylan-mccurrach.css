@@ -1,0 +1,25 @@
+.dylan {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+.text1,.text2 {
+  font-family: Verdana;
+}
+
+.text1 {
+  font-size: 26px;
+  text-align: center;
+  border: 1px;
+}
+
+.text2 {
+  font-size: 12px;
+  text-align: justify;
+}
+
+.box1 {
+  width: 400px;
+  margin: 0 auto;
+}

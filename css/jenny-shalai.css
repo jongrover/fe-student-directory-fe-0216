@@ -1,3 +1,122 @@
+/********** Fixes **********/
+
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Posititoning Classes */
+
+
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  }
+
+.col-1 {
+  float: left;
+  width: 32%;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+.description {
+  float: left;
+  margin-top: 20px;
+  width: 32%;
+}
+
+#logo {
+  float: left;
+  margin-top: 20px;
+}
+
 p {
   font-family: Georgia, Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 10px auto;
+
+}
+
+@media only screen and (max-width: 1090px) {
+
+  .wrapper {
+  width: 90%;
+  margin: 0 auto;
+  }
+
+  .col-1, .col-2, .col-3 {
+    float: none;
+    display: block;
+    margin: 0 auto;
+
+  }
+
+   .description {
+    float: left;
+    margin-top: 20px auto;
+    width: 32%;
+  }
+
+  
+}
+
+
+@media only screen and (max-width: 800px) {
+
+  .description {
+    float: none;
+    padding: 20px 120px 20px 220px;
+    width: 100%;
+
+
+}
+
+@media only screen and (max-width: 450px) {
+
+  #logo {
+    width: 25px;
+  }
+
+  header h2, header p {
+    display: none;
+  }
+
+  .col-1 {
+    float: none;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  
+  }
 }
