@@ -8,21 +8,24 @@ body {
     width: 960px;
     background-color: #E6E3CF;
     background-image: url("../images/canvas.jpg");
+    margin: 0 auto;
 }
 
 h1 {
+    width: 960px;
     display: block;
     color: white;
     text-align: center;
-    font-family: "Verdana";
+    font-family: "Helvetica";
     font-size: 40px;
     padding-top: 2%;
 }
 
 h2 {
+    width: 960px;
     color: white;
     text-align: center;
-    font-family: "Verdana";
+    font-family: "Helvetica";
     padding-bottom: 2%;
 }
 
@@ -49,6 +52,11 @@ p {
 
 .first {
   margin-left: 0%;
+}
+
+img, table, form, input, video, audio, {
+  width: 100%;
+  max-width: 100%;
 }
 /*********** columns*********** /
 
@@ -89,6 +97,7 @@ p {
   background-color: #333;
   width: 960px;
   opacity: 0.9;
+  margin: auto;
 }
 
 img {
@@ -129,7 +138,7 @@ ul li {
 }
 
 .col-2 {
-  float: right;
+  float: left;
   width: 63%;
   margin: 2%;
 }
@@ -173,13 +182,117 @@ a:hover {
 
 /********** Footer **********/
 footer{
+    width: 960px;
     padding: 2% 2% 2% 2%;
     clear: both;
     background: #333;
     height: 66px;
     color: white;
     opacity: 0.9;
-    font-family: "Helvetica";
+    font-family: "Helvetica";}
+
+/********** Media Queries **********/
+@media only screen and (max-width: 980px) {
+  #logo {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #nav {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  body {
+    margin: 0 auto;
+  }
+
+  #bio {
+    width: 80%;
+    font-size: 50%;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin: 0 auto;
+  }
+
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  img {
+    width: 100%;
+    position: center;
+    margin: 0 auto;
+  }
+  
+  footer {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
+@media only screen and (max-width: 900px) {
+  h1 {
+    font-size: 90%;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 90%;
+    text-align: center;
+  }
+  img {
+    width: 60%;
+    position: center;
+    margin: 0 auto;
+  }
+
+  #logo {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #nav {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  #bio {
+    width: 60%;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin: 0 auto;
+  }
+
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  img {
+    width: 100%;
+    position: center;
+    margin: 0 auto;
+  }
+  
+  footer {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .col-1, .col-2, .col-3 {
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+  }
+
+  .col-2, .col-1 {
+  -moz-column-count: 1;
+  -webkit-column-count: 1;
+  column-count: 1;
+}
+}
+@media only screen and (max-width: 790px) {
 }
