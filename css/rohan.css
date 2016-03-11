@@ -34,6 +34,33 @@ div.details{
 
 }
 
+@media only all and (max-width: 973px) {
+
+  div.details {
+    position: absolute;
+    display: block;
+    float: none;
+    top: 320px;
+  }
+
+  .polaroid {
+    position: relative;
+    display: block;
+    float: none;
+  }
+
+  p.music {
+    position: absolute;
+    float: none;
+    top: 400px;
+  }
+
+  footer {
+    display: none;
+
+  }
+}
+
 div.details .container {
   width: 90%;
   margin: auto;
