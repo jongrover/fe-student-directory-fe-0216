@@ -1,5 +1,5 @@
 .dylan {
-  width: 400px;
+  width: 475px;
   display: block;
   margin: 0 auto;
 }
@@ -20,6 +20,14 @@
 }
 
 .box1 {
-  width: 400px;
+  width: 475px;
   margin: 0 auto;
 }
+
+
+@media only screen and (max-width: 510px) {
+  .dylan, .box1 {
+    width: 98%;
+  }
+
+} 
