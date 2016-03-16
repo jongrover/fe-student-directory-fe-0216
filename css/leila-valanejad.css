@@ -119,3 +119,38 @@ a:visited {
 img, video, audio{
   max-width: 100%;
 }
+
+
+/*//////Media Queries/////*/
+
+@media only screen and (max-width: 1145px) {
+  #Me, #content, #interests {
+    width: 100%
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  .col-4 {
+    width: 100%
+  }
+
+  .wrapper h1{
+    font-size: 1em;
+    line-height: 1.3em;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .wrapper h2 {
+    font-size: 0.75em;
+    line-height: 1em;
+  }
+
+}
+
+
+
+
+
