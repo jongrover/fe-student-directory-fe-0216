@@ -125,16 +125,37 @@ iframe {
 }
 
 
+/*///RESPONSIVE DESIGN ///////////////*/
+
+@media (max-width: 960px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 786px) {
+  iframe {
+    width: 100%;
+  } 
+}
+
+@media only screen and (max-width: 960px) {
+  
+  h1 {
+    width: 90%;
+    position: relative;
+  }
+}
 
 
 
 
 
-
-
-
-
-
+/* 
+Desktop: 1024px;
+Tablet: 768px;
+Mobile: 480px;
+*/
 
 
 
